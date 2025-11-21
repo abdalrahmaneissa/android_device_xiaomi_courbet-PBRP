@@ -1,0 +1,28 @@
+# Build Fingerprint
+ro.build.fingerprint=Xiaomi/courbet_global/courbet:13/TKQ1.221013.002/V14.0.4.0.TKQMIXM:user/release-keys
+ro.build.version.incremental=V14.0.4.0.TKQMIXM
+ro.build.description=courbet_global-user 13 TKQ1.221013.002 V14.0.4.0.TKQMIXM release-keys
+
+# Device Info
+ro.product.vendor.marketname=Xiaomi 11 Lite 4G
+ro.product.board=courbet
+ro.board.platform=sm6150
+
+# Critical for decryption & dynamic partitions
+ro.boot.dynamic_partitions=true
+ro.crypto.volume.filenames_mode=aes-256-cts
+fbe.metadata.wrappedkey=true
+vendor.gatekeeper.disable_spu=true
+
+# Recovery fixes
+debug.sf.latch_unsignaled=1
+debug.sf.enable_hwc_vds=1
+persist.sys.force_sw_gles=1
+ro.hwui.disable_scissor_opt=true
+
+# Torch & brightness
+ro.hardware.leds=led:torch_0
+
+# Performance
+dalvik.vm.heapsize=36m
+persist.traced.enable=0
